@@ -1,6 +1,6 @@
--define(JS,    (application:get_env(bert,js,   "apps/roster/priv/macbert/"))).
--define(JAVA,  (application:get_env(bert,java, "apps/roster/priv/macbert/"))).
--define(SWIFT, (application:get_env(bert,swift,"apps/roster/priv/macbert/"))).
+-define(JS,    (application:get_env(bert,js,   "json-bert.js"))).
+-define(JAVA,  (application:get_env(bert,java, "Decoder.swift"))).
+-define(SWIFT, (application:get_env(bert,swift,"java.java"))).
 
 -record(error, {code=[] :: [] | binary()}).
 -record(ok,    {code=[] :: [] | binary()}).

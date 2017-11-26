@@ -1,5 +1,5 @@
 -module(bert).
--include("io.hrl").
+% -include("io.hrl").
 -compile(export_all).
 -export([start/2, init/1, stop/1]).
 
